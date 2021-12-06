@@ -7,6 +7,6 @@
 
 # lab 27: Django Models
 
-- **PR:** 
+- **PR:** https://github.com/yousef-alramli/django-snacks/pull/2
 
 - **client:** Django
