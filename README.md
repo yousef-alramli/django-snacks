@@ -13,6 +13,6 @@
 
 # lab 28: Django CRUD
 
-- **PR:** 
+- **PR:** https://github.com/yousef-alramli/django-snacks/pull/3
 
 - **client:** Django
