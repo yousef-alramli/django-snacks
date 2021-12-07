@@ -1,6 +1,6 @@
 {% extends "_base.html" %}
 
-{% block title %} {{snacks.title}} {% endblock %}
+{% block title %} snack {% endblock %}
 
 {% block content %}
 <h1>Snack Detail</h1>
@@ -9,5 +9,8 @@
     <li><b>Name: </b>{{snacks.title}} </li>
     <li><b>Description:</b>{{snacks.description}}</li>
 </ul>
+<button onclick="window.location.href='/update{{snacks.get_absolute_url}}'">Update</button>
+<button onclick="window.location.href='/delete{{snacks.get_absolute_url}}'">Delete</button>
+
 
 {% endblock %}
